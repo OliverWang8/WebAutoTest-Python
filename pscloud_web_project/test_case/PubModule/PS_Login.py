@@ -21,5 +21,4 @@ def Login(self,name,password):
     wd.find_element_by_id("login").send_keys("wangshuai04@inspur.com")
     wd.find_element_by_id("password").send_keys("pllilu1314!@")
     wd.find_element_by_class_name("btn").click()
-    time.sleep(10)
-    wd.quit()
+    time.sleep(2)
